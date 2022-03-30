@@ -23,6 +23,7 @@ h2 {
 p {
     font-size: 0.90em;
  text-indent: 3em;
+ color: rgb(231, 34, 20);
 }
 ul {
     font-weight: bold;
@@ -31,5 +32,7 @@ footer {
  font-family: 'Courier New', Courier, monospace;
  color: white;
  font-size: 0.75em;
+ color: hsl(360, 100%, 100%, 1);
  font-style: italic; 
 }
+
