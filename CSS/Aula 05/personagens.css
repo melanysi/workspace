@@ -1,0 +1,9 @@
+body {
+    background-color: #7703e4;
+ color: #000000;
+ font-family: Arial, Verdana, sans-serif;
+}
+.b {
+    display: flex;
+    margin-bottom: 30px;
+}
