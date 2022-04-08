@@ -7,3 +7,36 @@ body {
     display: flex;
     margin-bottom: 30px;
 }
+h2 {
+    color: #000000;
+ font-family: Arial, Verdana, sans-serif;
+text-align: center;
+}
+div{
+    color: #000000;
+ font-family: Arial, Verdana, sans-serif;
+ text-align: center;
+
+}
+.b{ 
+
+}
+
+img{
+    width: 300px;
+}
+
+.c {
+width: 30%;
+}
+.subtitulo{
+    width: 30%;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.familia{
+    border: 3px solid white;
+    width: 50%;
+}
