@@ -1,4 +1,5 @@
 body {
+    
     background-color: #7703e4;
  color: #000000;
  font-family: Arial, Verdana, sans-serif;
@@ -18,10 +19,6 @@ div{
  text-align: center;
 
 }
-.b{ 
-
-}
-
 img{
     width: 300px;
 }
