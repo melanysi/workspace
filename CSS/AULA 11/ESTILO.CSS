@@ -1,0 +1,27 @@
+@charset "utf-8";
+body{
+    background-image: url('black.jpg');
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+}
+.NJadaka, .TChalla, .HomemDeFerro {
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    font-weight: 900;
+    border: 3px dashed;
+    flex:1 0 30%;
+}
+.container {
+display: flex;
+min-height: 90vh;
+}
+.TChalla {
+align-self: flex-end;
+
+}
+.NJadaka, .HomemDeFerro {
+    align-self: flex-start;
+}
