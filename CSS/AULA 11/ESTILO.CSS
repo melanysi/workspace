@@ -7,13 +7,16 @@ body{
     min-height: 100vh;
     
 }
-.NJadaka, .TChalla, .HomemDeFerro {
+.NJadaka, .TChalla, .HomemDeFerro, .Thanos {
     background-color: rgba(0, 0, 0, 0.39);
     color: white;
     font-weight: 900;
-    border: 3px dashed;
+    border: 3px solid;
+    border-radius: 15px;
     flex:1 0 30%;
+    height: fit-content;
 }
+
 .container {
 display: flex;
 min-height: 90vh;
@@ -24,4 +27,12 @@ align-self: flex-end;
 }
 .NJadaka, .HomemDeFerro {
     align-self: flex-start;
+}
+
+.Left{
+    display: flex;
+    flex-direction: column ;
+  align-items: 
+width: 100%;
+justify-content: space-between;
 }
