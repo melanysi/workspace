@@ -1,0 +1,52 @@
+@charset "utf-8";
+body{
+background-color: #725436;
+
+}
+.container{
+    
+ display: inline-block;
+   
+}
+
+header{
+    display: grid;
+    grid-template-areas: "martelo ataque bestial carroceiro"
+    "encouracado mandibula femea .";
+   grid-template-columns: 25% 25% 25% 25%; 
+   grid-template-rows: 50% 50%;
+   height: 600px;
+   
+   
+}
+#img_martelo{
+    grid-area: martelo;
+   
+}
+#img_ataque{
+    grid-area: ataque;
+}
+#img_bestial{
+    grid-area: bestial;
+}
+#img_carroceiro{
+    grid-area: carroceiro;
+}
+#img_encouracado{
+    grid-area: encouracado;
+  
+}
+#img_mandibula{
+grid-area: mandibula;
+}
+#img_femea{
+    grid-area: femea;
+}
+img header{
+    width: 100%;
+    object-fit: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
