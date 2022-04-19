@@ -11,13 +11,18 @@ background-color: #725436;
 
 header{
     display: grid;
-    grid-template-areas: "martelo ataque bestial carroceiro"
-    "encouracado mandibula femea .";
-   grid-template-columns: 25% 25% 25% 25%; 
-   grid-template-rows: 50% 50%;
-   height: 600px;
-   
-   
+    grid-template-areas: "martelo ataque bestial carroceiro encouracado mandibula femea";
+   grid-template-columns: 300px 300px 250px 250px 250px 300px 250px; 
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px; 
+     /* height: 100vh; */
+   opacity: 0.5;
+   position: relative;
+}
+header h3{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    
 }
 #img_martelo{
     grid-area: martelo;
