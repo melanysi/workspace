@@ -1,61 +1,130 @@
 @charset "utf-8";
-body{
-background-color: #725436;
+body {
+    background-image: url('Imagens/titan.png');
+   background-color: #6d6a65;
+   /* background-repeat: no-repeat; */
+   background-position: center;
+   background-size: cover;
+}
+.container {
+  display: inline-block;
+}
 
+header {
+  display: grid;
+  grid-template-areas: "martelo ataque bestial carroceiro encouracado mandibula femea";
+  grid-template-columns: 300px 300px 250px 250px 250px 300px 250px;
+  /* grid-template-rows: 100px 100px 100px 100px 100px 100px 100px; */
+  /* height: 100vh; */
+  opacity: 0.8;
+  position: relative;
 }
-.container{
-    
- display: inline-block;
-   
+header h3 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  color: #88623c;
+  font-weight: 900em;
+  font-size: 500%;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke: 3px #422c14;
 }
-
-header{
-    display: grid;
-    grid-template-areas: "martelo ataque bestial carroceiro encouracado mandibula femea";
-   grid-template-columns: 300px 300px 250px 250px 250px 300px 250px; 
-  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px; 
-     /* height: 100vh; */
-   opacity: 0.5;
-   position: relative;
+#img_martelo {
+  grid-area: martelo;
 }
-header h3{
-    position: absolute;
-    top: 20%;
-    left: 35%;
+#img_ataque {
+  grid-area: ataque;
+}
+#img_bestial {
+  grid-area: bestial;
+}
+#img_carroceiro {
+  grid-area: carroceiro;
+}
+#img_encouracado {
+  grid-area: encouracado;
+}
+#img_mandibula {
+  grid-area: mandibula;
+}
+#img_femea {
+  grid-area: femea;
+}
+img header {
+  width: 100%;
+  object-fit: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.ab{
+    display: flex;
+    flex-direction:row;
+    margin-top: 5%;
+    margin-bottom: 3%;   
+}
+main{
+    border: 10px #8c867c solid ;
+    width: 80%;
+    margin:0 auto;
+    border-radius: 15px;
+    background-color: rgba(0, 0,0 , 0.5 );
+}
+.ab img{
+width: 100%;
+margin: 0 auto;
+}
+p{
+    color: #8ca879;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+h2{
+    color:#8ca879;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.ab a{
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #8ca879;
+    width: fit-content;
     color: aliceblue;
-    font-weight: 900em;
-    font-size: 500%;
-    font-family: Arial, Helvetica, sans-serif;
-text-shadow: 500px black;
+    padding: 15px 15px ;
+    border-radius: 9px;
+    margin: 0 auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-#img_martelo{
-    grid-area: martelo;
-   
+.ab a:hover{
+    background-color: #5a7a44;
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
-#img_ataque{
-    grid-area: ataque;
+  
+ .ba{
+     width: fit-content;
+    margin: 0 auto;
+
 }
-#img_bestial{
-    grid-area: bestial;
+p::selection{
+    color: #9adde6;
 }
-#img_carroceiro{
-    grid-area: carroceiro;
+.ab p::first-letter{
+    font-size: 200%;
+    color: #c1c2bc;
 }
-#img_encouracado{
-    grid-area: encouracado;
+.ab img:hover{
+    filter:brightness(50%); 
   
 }
-#img_mandibula{
-grid-area: mandibula;
+
+.ab figure{
+    flex: 1 0 50%;
 }
-#img_femea{
-    grid-area: femea;
-}
-img header{
-    width: 100%;
-    object-fit: cover;
-}
-*{
-    margin: 0;
-    padding: 0;
+
+
+.ab div{
+    flex: 1 0 50%;
 }
