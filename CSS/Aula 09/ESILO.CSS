@@ -1,10 +1,10 @@
 @charset "utf-8";
 body {
-    background-image: url('Imagens/titan.png');
-   background-color: #6d6a65;
-   /* background-repeat: no-repeat; */
-   background-position: center;
-   background-size: cover;
+  background-image: url("Imagens/titan.png");
+  background-color: #6d6a65;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-size: cover;
 }
 .container {
   display: inline-block;
@@ -58,73 +58,129 @@ img header {
   margin: 0;
   padding: 0;
 }
-.ab{
-    display: flex;
-    flex-direction:row;
-    margin-top: 5%;
-    margin-bottom: 3%;   
+.ab {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
-main{
-    border: 10px #8c867c solid ;
-    width: 80%;
-    margin:0 auto;
-    border-radius: 15px;
-    background-color: rgba(0, 0,0 , 0.5 );
+main {
+  border: 10px #8c867c solid;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-.ab img{
-width: 100%;
+.ab img {
+  width: 100%;
+  margin: 0 auto;
+}
+p {
+  color: #8ca879;
+  font-size: 1.5rem;
+  margin: 20px;
+}
+h2 {
+  color: #8ca879;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.ab a {
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: #8ca879;
+  width: fit-content;
+  color: aliceblue;
+  padding: 15px 15px;
+  border-radius: 9px;
+  margin: 0 auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: block;
+
+}
+.ab a:hover {
+  background-color: #54753e;
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+.ba {
+  width: fit-content;
+  margin: 0 auto;
+}
+p::selection {
+  color: #9adde6;
+}
+.ab p::first-letter {
+  font-size: 200%;
+  color: #c1c2bc;
+}
+.ab img:hover {
+  filter: brightness(50%);
+}
+
+.ab figure {
+  flex: 1 0 50%;
+}
+
+.ab div {
+  flex: 1 0 50%;
+}
+.ba {
+display: flex;
+}
+.ba iframe{
+  order: 1;
+  /* width: 900px; */
+  padding-right: 5%;
+
+}
+.ba p{
+/* text-align: center; */
+color: #54753e;
+}
+.ba h1{
+  text-align: center;
+  color: #54753e;
+}
+.Noticias{
+display: flex;
+}
+.Noticias img {
+  width: 50%;
+  margin: 5%;
+}
+.dois img{
+  order:-1;
+}
+.Noticias a{
+  background-color: #54753e;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size:2rem;
+padding: 10px;
+border: #54753e solid;
+display: block;
+width: fit-content;
 margin: 0 auto;
 }
-p{
-    color: #8ca879;
-    font-size: 1.5rem;
-    margin: 20px;
+.Noticias a:hover{
+  background-color: #54753e;
+  transition: all 0.5s;
+  transform: scale(1.1);
 }
-h2{
-    color:#8ca879;
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 2%;
+footer{
+  text-align: center;
+  border: 10px #8c867c solid;
+  width: 80%;
+margin: 10px auto;
+border-radius: 15px;
 }
-.ab a{
-    text-decoration: none;
-    font-size: 2rem;
-    background-color: #8ca879;
-    width: fit-content;
-    color: aliceblue;
-    padding: 15px 15px ;
-    border-radius: 9px;
-    margin: 0 auto;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+footer  p::before{
+  content: "\00A9";
+  text-align: center;
 }
-.ab a:hover{
-    background-color: #5a7a44;
-    transform: scale(1.1);
-    transition: all 0.5s;
-}
-  
- .ba{
-     width: fit-content;
-    margin: 0 auto;
-
-}
-p::selection{
-    color: #9adde6;
-}
-.ab p::first-letter{
-    font-size: 200%;
-    color: #c1c2bc;
-}
-.ab img:hover{
-    filter:brightness(50%); 
-  
-}
-
-.ab figure{
-    flex: 1 0 50%;
-}
-
-
-.ab div{
-    flex: 1 0 50%;
+footer p::after{
+  content: "Melany Kauane Souza Inacio";
 }
