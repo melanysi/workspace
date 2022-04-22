@@ -1,22 +1,28 @@
 p{
-	color: green;
+	color: rgb(8, 8, 8);
 	font-size: 1.2em;
 	font-family: 'Courier New', Courier, monospace;
 }
 h1{
 	font-family: sans-serif;
 	text-align: center;
-	background-color: #99c2ff;
+	background-color: #5184d1;
 }
 h2{ 
 	font-family: arial;
 	color: #FFFFFF;
 	text-align: center;
-	background-color: #6600cc;
+	background-color: #7e5ba1;
 }
 small{
-	color: blue;
+	color: rgb(0, 0, 0);
 	font-size: 0.5em;
 	text-align: center;
 	font-family: 'Courier New', Courier, monospace;
+}
+article{
+	text-align: center;
+}
+header{
+	text-align: center;
 }
