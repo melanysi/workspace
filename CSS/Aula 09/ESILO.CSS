@@ -97,7 +97,6 @@ h2 {
   margin: 0 auto;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: block;
-
 }
 .ab a:hover {
   background-color: #54753e;
@@ -127,60 +126,59 @@ p::selection {
   flex: 1 0 50%;
 }
 .ba {
-display: flex;
+  display: flex;
 }
-.ba iframe{
+.ba iframe {
   order: 1;
   /* width: 900px; */
   padding-right: 5%;
-
 }
-.ba p{
-/* text-align: center; */
-color: #1c2c11;
+.ba p {
+  /* text-align: center; */
+  color: #8bc465;
 }
-.ba h1{
+.ba h1 {
   text-align: center;
-  color: #283b1b;
+  color: #83b363;
 }
-.Noticias{
-display: flex;
+.Noticias {
+  display: flex;
 }
 .Noticias img {
   width: 50%;
   margin: 5%;
 }
-.dois img{
-  order:-1;
+.dois img {
+  order: -1;
 }
-.Noticias a{
+.Noticias a {
   background-color: #54753e;
   color: white;
   border-radius: 15px;
   text-decoration: none;
-  font-size:2rem;
-padding: 10px;
-border: #54753e solid;
-display: block;
-width: fit-content;
-margin: 0 auto;
+  font-size: 2rem;
+  padding: 10px;
+  border: #54753e solid;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
 }
-.Noticias a:hover{
+.Noticias a:hover {
   background-color: #54753e;
   transition: all 0.5s;
   transform: scale(1.1);
 }
-footer{
+footer {
   text-align: center;
   border: 10px #8c867c solid;
   width: 80%;
-margin: 10px auto;
-border-radius: 15px;
+  margin: 10px auto;
+  border-radius: 15px;
 }
-footer  p::before{
+footer p::before {
   content: "\00A9";
   text-align: center;
 }
-footer p::after{
+footer p::after {
   content: "Melany Kauane Souza Inacio";
 }

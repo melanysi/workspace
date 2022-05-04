@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
-    background-image: url(afropaty.jpg);
+    background-image: url(https://i.pinimg.com/736x/c4/1f/06/c41f06376ccc61ade8878c0a2cf7bb6b.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #f00395;
@@ -13,19 +13,23 @@ h1 {
  line-height: 200%;
  font-family: Georgia, "Times New Roman", serif;
  text-shadow: 3px 3px 5px #cccccc;
+ text-align: center;
 }
 h2 {
  background-color: #e440c8;
  font-family: Georgia, "Times New Roman", serif;
  text-align: center;
+
 }
 p {
  font-size: .90em;
  text-indent: 3em;
+
 }
 ul {
  font-weight: bold;
- color: rgb(255, 251, 254);
+ color: rgb(221, 15, 152);
+ font-size:larger;
 }
 footer {
  color: #333333;
@@ -41,20 +45,23 @@ footer {
     propriedade02: "valor02";
 }
 #primeiro_nome {
-    background-color: rgb(245, 52, 171);
+    background-color: rgb(221, 46, 154);
    }
 
    .Hillary {
+
        display: flex;
    }
-
+     .Hillary img {
+       width: 180px;
+     }
    .Hillary p {
        margin-left: 30px;
        text-align: 15px;
    }
 
 p {
-    color: rgb(248, 248, 248);
+    color: rgb(177, 11, 108);
  font-family: Georgia, "Times New Roman", Arial, serif;
  font-size: 1.1em;
  text-align: center;

@@ -1,0 +1,16 @@
+Respostas dos exercícios de lógica 
+
+1 - Resposta correta (F) Yara mora no 4º andar e tem um cachorro
+
+2 - Resposta correta  V    F    F
+                      F    V    F
+                      F    V    V
+                      V    F    V
+                                 
+
+3 -  Gato fica no sotão e o Rato fica no quarto 
+                                  Nome     Idade  Animal    Maio         Suco      FPS                     
+4 - Resposta correta Menina 1     Raquel    11    Gatos      Branco      Laranja     45
+                     Menina 2     Vivian    10    Passaros   Azul        Limonada    55
+                     Menina 3     Bruna     9     Cachorro   Amarelo     Maracujá    40
+                     Menina 4     Ana       8     Peixe      Verde       Morango     50 
