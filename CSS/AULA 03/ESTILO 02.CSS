@@ -1,38 +1,39 @@
 @charset "utf-8";
 body {
-    background-image: url(https://i.pinimg.com/736x/c4/1f/06/c41f06376ccc61ade8878c0a2cf7bb6b.jpg);
+    background-image: url('https://i.pinimg.com/564x/c9/52/4f/c9524f9373f1cafb06cf3d4d365215b7.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #f00395;
+    background-color: #ffffff;
  color: #000000;
  font-family: Arial, Verdana, sans-serif;
 }
 h1 {
- background-color: #d100ae;
- color: #e6e6fa;
+ 
+ color: #f1e2ef;
  line-height: 200%;
  font-family: Georgia, "Times New Roman", serif;
- text-shadow: 3px 3px 5px #cccccc;
+ text-shadow: 3px 3px 5px #e26bba;
  text-align: center;
 }
 h2 {
- background-color: #e440c8;
+background-color: #ffffff;
  font-family: Georgia, "Times New Roman", serif;
  text-align: center;
-
+color: rgb(150, 25, 94);
 }
 p {
+    background-color: #00000000;
  font-size: .90em;
  text-indent: 3em;
 
 }
 ul {
  font-weight: bold;
- color: rgb(221, 15, 152);
+ color: rgb(0, 0, 0);
  font-size:larger;
 }
 footer {
- color: #333333;
+ color: #000000;
  font-size: .75em;
  font-style: italic;
  font-family: 'Courier New', Courier, monospace;
@@ -45,7 +46,7 @@ footer {
     propriedade02: "valor02";
 }
 #primeiro_nome {
-    background-color: rgb(221, 46, 154);
+    color: rgb(0, 0, 0);
    }
 
    .Hillary {
@@ -61,7 +62,8 @@ footer {
    }
 
 p {
-    color: rgb(177, 11, 108);
+
+    color: rgb(0, 0, 0);
  font-family: Georgia, "Times New Roman", Arial, serif;
  font-size: 1.1em;
  text-align: center;
