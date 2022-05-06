@@ -2,7 +2,6 @@
 body {
   background-image: url('123.jpg');
   background-repeat: no-repeat;
-  
   background-size: cover;
 
   /* width: 950em; */
@@ -26,8 +25,25 @@ a{
   color:rgb(255, 230, 0);
 }
 
-  P.virgil.gif{
-    margin-left: auto;
-    margin-right: auto;
-    width: auto
+ 
+
+.bc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px  rgb(238, 238, 43) solid;
+  min-height: 90vh;
+}
+.home{
+  margin: 15px;
+}
+
+.bc img{
+  width: 500px;
+}
+
+.virgil{
+  
+  width:80%;
 }
