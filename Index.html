@@ -1,0 +1,147 @@
+<Index.html
+
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para o Meu Amor 💖</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      max-width: 700px;
+      width: 90%;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+      text-align: center;
+      animation: fadeIn 1.2s ease;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: #e63946;
+    }
+    h2 {
+      font-weight: normal;
+      margin-top: 0;
+      color: #555;
+    }
+    p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin: 20px 0;
+    }
+    .heart {
+      font-size: 3rem;
+      animation: pulse 1.5s infinite;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart">❤️</div>
+    <h1>Oi, Kaique</h1>
+    <h2>🪐</h2><p>
+  Fiz esse site só pra você, porque algumas coisas merecem ficar guardadas e serem lidas com calma.
+  Principalmente aquilo que vem do coração.
+</p>
+
+<p>
+  A nossa história, como toda história real, tem momentos de turbulência. Essa semana nós brigamos,
+  erramos dos dois lados, reconhecemos… e escolhemos continuar. Isso diz muito sobre nós.
+</p>
+
+<p>
+  Eu acredito de verdade que o nosso relacionamento é feito de paz e calmaria,
+  mesmo quando o mundo balança um pouco. Com você, tudo encontra um jeito de se ajeitar.
+</p>
+
+<p>
+  Obrigada por ficar, por conversar, por aprender comigo e por me ensinar também.
+  Eu escolho você não só nos dias fáceis, mas principalmente nos dias difíceis.
+</p>
+
+<p>
+  <strong>15/03</strong> é mais do que uma data. É um lembrete do que estamos construindo juntos.
+</p>
+
+<p>
+  Eu te amo. 💕
+</p>
+
+<p>
+  E pra lembrar que o que sinto por você vai além de qualquer distância…
+</p>
+
+<p style="font-size:0.95rem; color:#666; margin-bottom: 10px;">
+  Neste exato momento, Saturno está a <span id="distance">calculando…</span> km da Terra e ainda assim,
+  não é mais distante do que o que sinto por você.
+</p>
+
+<div style="margin: 20px 0; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.15); cursor: pointer;" onclick="openFullscreen()">
+  <iframe
+    id="saturnFrame"
+    src="https://eyes.nasa.gov/apps/solar-system/#/saturn"
+    width="100%"
+    height="420"
+    style="border:0"
+    loading="lazy"
+    referrerpolicy="no-referrer"
+    title="Saturno em tempo real - NASA">
+  </iframe>
+</div>
+
+<p style="font-size:0.9rem; color:#777;">
+  Toque ou clique em Saturno para ver em tela cheia 🪐✨
+</p>
+
+<script>
+  function openFullscreen() {
+    const frame = document.getElementById('saturnFrame');
+    if (frame.requestFullscreen) {
+      frame.requestFullscreen();
+    } else if (frame.webkitRequestFullscreen) {
+      frame.webkitRequestFullscreen();
+    } else if (frame.msRequestFullscreen) {
+      frame.msRequestFullscreen();
+    }
+  }
+
+  // Distância média Terra–Saturno (varia com a órbita)
+  const averageDistanceKm = 1275000000; // 1,275 bilhão km
+  document.getElementById('distance').innerText = averageDistanceKm.toLocaleString('pt-BR');
+</script>
+
+<div class="footer">
+  Feito com todo carinho, pra você hoje e sempre.
+</div>
+
+  </div>
+</body>
+  <!-- 🪐 𝒶𝓈𝓈: 𝒻ú𝓇𝒾𝒶 𝒹𝒶 𝓃𝑜𝒾𝓉𝑒 -->
+</html>
